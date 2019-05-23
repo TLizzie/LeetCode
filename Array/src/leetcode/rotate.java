@@ -10,8 +10,8 @@ package leetcode;
  * space complexity O(n)
  */
 
-//public class rotate {
-//    public static void rotate(int[] nums, int k) {
+//public class Rotate {
+//    public static void Rotate(int[] nums, int k) {
 //        int[] temp = new int[nums.length];
 //        for (int i = 0; i < nums.length; i++) {
 //            temp[(i + k) % nums.length] = nums[i];
@@ -27,7 +27,7 @@ package leetcode;
  * space O(1)
  */
 
-public class rotate {
+public class Rotate {
 
     public static void reverse(int[] nums, int start, int end) {
         int temp = 0;

@@ -9,7 +9,7 @@ package leetcode;
  * time: O(n)
  * space: O(1)
  */
-public class bullsAndCows {
+public class BullsAndCows {
     public String getHint(String secret, String guess) {
         int bull = 0;
         int cows = 0;

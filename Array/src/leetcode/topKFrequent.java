@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * leetcode 347 topKFrequent
+ * leetcode 347 TopKFrequent
  * date: 2019/5/18
  * HashMap, BucketSort,
  * 注意多个边界条件
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class topKFrequent {
+public class TopKFrequent {
     public List<Integer> topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
