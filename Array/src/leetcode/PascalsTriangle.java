@@ -7,6 +7,8 @@ import java.util.List;
  * Leetcode 118 PascalsTriangle
  * 动态规划
  * 搞懂list的嵌套定义
+ * res.add (new ArrayList(list)) 如果写成res.add(list) 是添加了地址的引用，如果list集合里面有变化那么添加的东西也会变
+ * 每次add() 一个new的内存空间，那么之前set的内存空间改变就不受影响
  * 2019/5/28
  * time: O(n^2)
  * space: O(n^2)
