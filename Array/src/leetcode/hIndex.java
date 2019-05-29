@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 /**
  * Leetcode 274 H-Index
- *
  * time: O(nlogn)
  * space: O(1)
  *
