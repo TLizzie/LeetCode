@@ -2,6 +2,7 @@ package leetcode;
 
 /**
  * Leetcode 169 Majority Element
+ * Moore Voting Algorithm
  *
  */
 
