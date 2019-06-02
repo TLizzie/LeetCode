@@ -21,7 +21,7 @@ public class IncreasingTripletSubsequence {
         return false;
     }
 
-    public boolean increasingTriplet(int[] nums) {
+    public boolean increasingTriplet2(int[] nums) {
         if (nums.length < 3 || nums == null) {
             return false;
         }
