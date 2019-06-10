@@ -17,7 +17,6 @@ public class SortColors {
                 } else if (nums[i] == 1) {
                     white++;
                 } else if (nums[i] == 2) {
-                    n d
                     blue++;
                 }
             }

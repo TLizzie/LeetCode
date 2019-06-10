@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d47bd8-bb27-4274-bcd0-db376e3e894d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/src/leetcode/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/src/leetcode/MergeSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/src/leetcode/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/src/leetcode/SortColors.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,15 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/BitManipulation/MissingNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/String/PalindromeNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -35,20 +27,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Array/src/leetcode/SortColors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="-101">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/src/leetcode/MergeSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -135,8 +136,9 @@
         <option value="$PROJECT_DIR$/LeetCode/BitManipulation/MissingNumber.java" />
         <option value="$PROJECT_DIR$/LeetCode/String/PalindromeNumber.java" />
         <option value="$PROJECT_DIR$/Array/src/leetcode/MaximumSubarray.java" />
-        <option value="$PROJECT_DIR$/Array/src/leetcode/SortColors.java" />
         <option value="$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java" />
+        <option value="$PROJECT_DIR$/Array/src/leetcode/MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/Array/src/leetcode/SortColors.java" />
       </list>
     </option>
   </component>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559792165670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add 75, 238&#10;238 没太理解">
+      <created>1560143231188</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560143231188</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -329,7 +338,8 @@
     <MESSAGE value="add 287" />
     <MESSAGE value="add 268" />
     <MESSAGE value="add 53, 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 53, 9" />
+    <MESSAGE value="add 75, 238&#10;238 没太理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 75, 238&#10;238 没太理解" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Array/src/leetcode/BestTimetoBuyandSellStockII.java">
@@ -464,17 +474,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/leetcode/SortColors.java">
+    <entry file="file://$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/leetcode/ProductofArrayExceptSelf.java">
+    <entry file="file://$PROJECT_DIR$/Array/src/leetcode/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/src/leetcode/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
