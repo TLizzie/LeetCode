@@ -40,8 +40,8 @@ public class ReverseWordsinaString {
         int i = 0;
         int j = 0;
         while(i < len) {
-            while (i < j || i < len && s[i] == ' ') i++;
-            while (j < i || j < len && s[j] != ' ') j++;
+            while (i < j || i < len && s[i] == ' ') i++; // pointer to jump spaces
+            while (j < i || j < len && s[j] != ' ') j++; // pointer to jump non-spaces
             reverse(s, i , j - 1);
         }
     }
