@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9d47bd8-bb27-4274-bcd0-db376e3e894d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/BitManipulation/FindtheDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BitManipulation/MaximumProductofWordLengths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BitManipulation/Numberof1Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BitManipulation/ReverseBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/PalindromePermutationII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/out/production/LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Array/out/production/LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/out/production/LeetCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Array/out/production/LeetCode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/GuessNumberHigherorLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/GuessNumberHigherorLower.java" afterDir="false" />
-    </list>
+    <list default="true" id="d9d47bd8-bb27-4274-bcd0-db376e3e894d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/BitManipulation/ReverseBits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/BackTracking/Subsets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -117,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/BinarySearch/SearchinRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/Array/src/leetcode/LongestConsecutiveSequence.java" />
         <option value="$PROJECT_DIR$/Array/src/leetcode/FindtheDuplicateNumber.java" />
         <option value="$PROJECT_DIR$/Array/src/leetcode/IncreasingTripletSubsequence.java" />
@@ -168,6 +165,7 @@
         <option value="$PROJECT_DIR$/Skills/BitMap.java" />
         <option value="$PROJECT_DIR$/Array/src/leetcode/MinimumSizeSubarraySum.java" />
         <option value="$PROJECT_DIR$/LeetCode/BitManipulation/ReverseBits.java" />
+        <option value="$PROJECT_DIR$/LeetCode/BackTracking/Subsets.java" />
       </list>
     </option>
   </component>
@@ -203,6 +201,12 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="BackTracking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -409,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561763284783</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add 131,190,191,318,389,78">
+      <created>1562034487130</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562034487130</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -422,7 +433,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="799" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="799" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
@@ -510,20 +521,14 @@
     <MESSAGE value="179, 242, 6" />
     <MESSAGE value="add 273, 12, 13, 246, 247" />
     <MESSAGE value="add 266, 5*, 214, 125" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 266, 5*, 214, 125" />
+    <MESSAGE value="add 131,190,191,318,389,78" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 131,190,191,318,389,78" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Array/src/leetcode/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Array/src/leetcode/WiggleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -893,6 +898,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/BackTracking/Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
