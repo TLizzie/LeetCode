@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d47bd8-bb27-4274-bcd0-db376e3e894d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/BulbSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/CountPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/MultiplyStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/NumberofDigitOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/StringtoInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/SuperPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/UglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/UglyNumberII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/ValidPerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/WaterandJugProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +45,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/Math/BulbSwitch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -458,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562138876901</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add 67, 319, 204, 66, 7,8, 263, 264, 367, 365">
+      <created>1562312642559</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562312642559</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -561,7 +559,8 @@
     <MESSAGE value="add 266, 5*, 214, 125" />
     <MESSAGE value="add 131,190,191,318,389,78" />
     <MESSAGE value="add 393, 201, 371, 342, 338, 89, 137,260" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 393, 201, 371, 342, 338, 89, 137,260" />
+    <MESSAGE value="add 67, 319, 204, 66, 7,8, 263, 264, 367, 365" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 67, 319, 204, 66, 7,8, 263, 264, 367, 365" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -930,8 +929,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Math/BulbSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
