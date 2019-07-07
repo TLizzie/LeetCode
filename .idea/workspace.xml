@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d47bd8-bb27-4274-bcd0-db376e3e894d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/AdditiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/IntegerBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/IntegerReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/LexicographicalNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/NthDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Math/RotateFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -469,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562312693506</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add 306,202,343,397,386, 400">
+      <created>1562479326391</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1562479326392</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -572,7 +572,8 @@
     <MESSAGE value="add 131,190,191,318,389,78" />
     <MESSAGE value="add 393, 201, 371, 342, 338, 89, 137,260" />
     <MESSAGE value="add 67, 319, 204, 66, 7,8, 263, 264, 367, 365" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 67, 319, 204, 66, 7,8, 263, 264, 367, 365" />
+    <MESSAGE value="add 306,202,343,397,386, 400" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 306,202,343,397,386, 400" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
