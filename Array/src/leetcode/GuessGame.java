@@ -5,7 +5,7 @@ package leetcode;
  * 二分查找
  *
  * The guess API is defined in the parent class GuessGame.
-   @param n, your guess
+   @param , your guess
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
       int guess(int num); */
 
@@ -23,6 +23,10 @@ public class GuessGame {
             }
         }
         return i;
+    }
+
+    public int guess(int mid) {
+        return 0;
     }
 
 }

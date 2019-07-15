@@ -28,7 +28,6 @@ package leetcode;
  */
 
 public class Rotate {
-
     public static void reverse(int[] nums, int start, int end) {
         int temp = 0;
         while (start < end) {
@@ -40,7 +39,7 @@ public class Rotate {
         }
     }
 
-    public static void rotate(int[] nums, int k) {
+    public static void rotate2(int[] nums, int k) {
         k = k % nums.length;
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);

@@ -5,8 +5,8 @@ package Array.src.leetcode;
  * selecting window
  * time: O(n)
  * space: O(1)
- */
-public class MinimumSizeSubarraySum {
+ * */
+class MinimumSizeSubarraySum {
     // selecting window
     /**
      * [0 1 2 3 4 5]
@@ -53,8 +53,9 @@ public class MinimumSizeSubarraySum {
                 res = right - i;
         }
         return res == nums.length + 1 ? 0 : res;
+    }
 
-        public int searchRight(int left, int right, int key, int nums[]) {
+        private int searchRight(int left, int right, int key, int nums[]) {
             while (left <= right) {
                 int mid = left + (right - left) / 2;
                 if (nums[mid] >= key) {
@@ -67,4 +68,4 @@ public class MinimumSizeSubarraySum {
 
 
     }
-}
+

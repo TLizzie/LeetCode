@@ -22,6 +22,7 @@ public class SummaryRanges {
             if (num != nums[i]) {
                 res.add(num + "->" + nums[i]);
             } else {
+                // 为什么不是add(num)
                 res.add(nums[i] + "");
             }
         }

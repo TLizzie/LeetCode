@@ -9,7 +9,7 @@ package leetcode;
  * space complexity O(n)
  */
 
-public class removeElement {
+public class RemoveElement {
 
     public static int removeElement(int[] nums, int val) {
         if (nums.length == 0 || nums == null) {

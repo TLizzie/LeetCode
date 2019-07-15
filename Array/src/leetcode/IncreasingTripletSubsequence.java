@@ -3,7 +3,7 @@ package Array.src.leetcode;
 /**
  * Leetcode 334 Increasing Triplet Subsequence
  * 5/31/2019
- *
+ * 目的：寻找倒数第二小的值 看是否有比倒数第二小的值还小的数字存在
  */
 public class IncreasingTripletSubsequence {
     public boolean increasingTriplet(int[] nums) {
@@ -25,7 +25,6 @@ public class IncreasingTripletSubsequence {
         if (nums.length < 3 || nums == null) {
             return false;
         }
-
         int small = Integer.MAX_VALUE;
         int big = Integer.MAX_VALUE;
         for (int i : nums) {

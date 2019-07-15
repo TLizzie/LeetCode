@@ -11,11 +11,18 @@ import java.util.List;
  * and implements a method that takes two words word1 and word2 and return the shortest distance between these two words in the list.
  * Your method will be called repeatedly many times with different parameters.
  *
- * Using Hashmap
+ * Example:
+ * Assume that words = ["practice", "makes", "perfect", "coding", "makes"].
+ *
+ * Input: word1 = “coding”, word2 = “practice”
+ * Output: 3
+ * Input: word1 = "makes", word2 = "coding"
+ * Output: 1
+ *
+ * Using HashMap
  */
-
-    public class ShortestWordDistanceII {
-
+class ShortestWordDistanceII {
+        // word  index list
     private HashMap<String, List<Integer>> map;
     public ShortestWordDistanceII(String[] words) {
         map = new HashMap<>();
@@ -31,7 +38,7 @@ import java.util.List;
         }
     }
 
-    // time : O(m*n)
+    // time : O(m * n)
     public int Shortest(String word1, String word2) {
         List<Integer> l1 = map.get(word1);
         List<Integer> l2 = map.get(word2);
@@ -44,6 +51,7 @@ import java.util.List;
         return res;
     }
 
+    // time : O(m + n)
     public int ShortestI(String word1, String word2) {
         List<Integer> l1 = map.get(word1);
         List<Integer> l2 = map.get(word2);
@@ -52,6 +60,11 @@ import java.util.List;
         int j = 0;
         while (i < l1.size() && j < l2.size()) {
             res = Math.min(res, Math.abs(l1.get(i) - l2.get(j)));
+            if (l1.get(i) < l2.get(j)) {
+                i++;
+            } else {
+                j++;
+            }
         }
         return res;
     }

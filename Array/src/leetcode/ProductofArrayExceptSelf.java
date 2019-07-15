@@ -4,6 +4,14 @@ package Array.src.leetcode;
  * 6/9/2019
  * ??不知道是啥玩意
  * 没太懂
+ * 双向扫描
+ * 第一次扫 是 当前元素左边的乘积
+ * 二次扫描是右边元素的乘积
+ *
+ *
+ * [1, 2, 3, 4]
+ * [1, 1, 2, 6]
+ * [24, 12, 8, 6]
  */
 public class ProductofArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {

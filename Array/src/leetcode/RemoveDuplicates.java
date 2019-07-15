@@ -9,8 +9,7 @@ package leetcode;
  *  space complexity O(1)
  */
 
-public class removeDuplicates {
-
+class RemoveDuplicates {
     public static int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {     // throw an exception
             return 0;
