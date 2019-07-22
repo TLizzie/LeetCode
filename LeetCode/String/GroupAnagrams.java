@@ -8,7 +8,7 @@ import java.util.List;
  * 49. Group Anagrams
  * 6/24/2019
  * 思路： counting sort 存字符出现次数
- * hashmap: counting 为key, string 为value
+ * HashMap: counting 为key, string 为value
  *
  */
 public class GroupAnagrams {
@@ -23,7 +23,7 @@ public class GroupAnagrams {
             String s = "";
             for (int i = 0; i < strs.length; i++) {
                 if (count[i] != 0) {
-                    s += String.valueOf(count[i]) + String.valueOf(i + 'a');
+                    s += count[i] + String.valueOf(i + 'a');
                 }
         }
             if (map.containsKey(s)) {

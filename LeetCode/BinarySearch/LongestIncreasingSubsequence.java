@@ -4,11 +4,11 @@ package LeetCode.BinarySearch;
  * 300. Longest Increasing Subsequence
  * 7/8/2019
  * Binary Search
- *
+ * i, j 相当于 tails 的起点 终点
+ * res相当于 tail的实际长度
  */
 public class LongestIncreasingSubsequence {
 
-    // res相当于 tail的实际长度
     public int lengthOfLIS(int[] nums) {
         int res = 0;
         int[] tails = new int[nums.length];

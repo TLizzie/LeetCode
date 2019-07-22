@@ -6,6 +6,7 @@ package LeetCode.BinarySearch;
  *  *
  *  * binary search
  *  * 问题： 临界判断条件为啥是这个？？
+ * 回答： 三种bs的写法 写哪个都ok
  *
  */
 public class SearchinRotatedSortedArray {
