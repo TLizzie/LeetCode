@@ -20,8 +20,15 @@ public class ReverseWordsinaString {
         return sb.toString().trim();
     }
 
+
+    /**
+     * 先把整个字符串调换
+     * 然后调换每个词
+     * @param s
+     * @return
+     */
     public String reverseWords2(String s) {
-        if (s.length() == 0 || s == null)
+        if (s == null || s.length() == 0)
             return s;
         char[] ch = s.toCharArray();
         reverse(ch, 0, s.length() - 1);
@@ -36,12 +43,24 @@ public class ReverseWordsinaString {
             s[b--] = temp;
         }
     }
+
+    /**
+     * blue sky
+     * yks eulb
+     * i
+     *    j
+     *     i
+     *         j
+     * sky blue
+     * @param s
+     * @param len
+     */
     private void reverseWord(char[] s, int len) {
         int i = 0;
         int j = 0;
         while(i < len) {
-            while (i < j || i < len && s[i] == ' ') i++; // pointer to jump spaces
-            while (j < i || j < len && s[j] != ' ') j++; // pointer to jump non-spaces
+            while (i < j || i < len && s[i] == ' ') i++; // pointer to jump spaces 单词开头
+            while (j < i || j < len && s[j] != ' ') j++; // pointer to jump non-spaces 单词末尾
             reverse(s, i , j - 1);
         }
     }

@@ -11,7 +11,7 @@ import java.util.List;
  *
  */
 
-    public class Interval {
+    private class Interval {
         int start;
         int end;
 

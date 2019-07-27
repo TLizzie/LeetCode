@@ -42,7 +42,7 @@ public class LongestConsecutiveSequence {
     //HashSet
     //time : O(n)
     //space: O(n)
-    public int longestConsecutive(int[] nums) {
+    public int longestConsecutive2(int[] nums) {
         if (nums.length == 0 || nums == null) {
             return 0;
         }

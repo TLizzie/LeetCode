@@ -5,6 +5,6 @@ package LeetCode.Math;
  * 7/3/2019
  *
  */
-public class AddBinary {
-    public
-}
+//public class AddBinary {
+//    public
+//}

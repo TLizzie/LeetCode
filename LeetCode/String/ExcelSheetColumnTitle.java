@@ -4,8 +4,8 @@ package LeetCode.String;
  * 面试还蛮常考
  * 168. Excel Sheet Column Title
  * 6/25/2019
- * time: O(n) / O(1)
- * space: O(n)
+ * time: O(n) / O(1) / O(log n)
+ * space: O(n) string builder 不断开辟新空间
  */
 
 public class ExcelSheetColumnTitle {

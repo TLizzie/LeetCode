@@ -1,6 +1,7 @@
 package Array.src.leetcode;
 
 import sun.jvm.hotspot.utilities.Interval;
+import java.util.Arrays;
 
 import java.util.Arrays;
 
@@ -21,10 +22,9 @@ import java.util.Arrays;
  *  time: O(nlogn)
  *  space: O(n)
  */
-class MeetingRooms {
+public class MeetingRooms {
 
-    public boolean canAttendMeetings(Interval intervals) {
-        @Override
+    public boolean canAttendMeetings(Interval[] intervals) {
         Arrays.sort(intervals, (x, y) -> x.start - y.start);
         for (int i = 1;  i < intervals.length; i++) {
             if (intervals[i - 1].end > intervals[i].start)
@@ -33,3 +33,6 @@ class MeetingRooms {
         return true;
     }
 }
+
+
+

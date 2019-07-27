@@ -23,5 +23,9 @@ public class GuessNumberHigherorLower {
         }
         return i;
     }
+
+    public int guess(int mid) {
+        return 0;
+    }
 }
 
