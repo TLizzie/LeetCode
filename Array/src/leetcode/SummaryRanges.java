@@ -16,13 +16,13 @@ public class SummaryRanges {
             return res;
         for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
-            while (i < nums.length - 1 && nums[i] + 1 == nums[i + 1]) {
+            while (i + 1 < nums.length && nums[i] + 1 == nums[i + 1]) {
                 i++;
             }
             if (num != nums[i]) {
                 res.add(num + "->" + nums[i]);
             } else {
-                // 为什么不是add(num)
+                // 为什么不是add(num) 变成了string
                 res.add(nums[i] + "");
             }
         }

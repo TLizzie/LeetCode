@@ -8,7 +8,8 @@ import java.util.List;
  * 7/1/2019
  * backtracking 回溯算法
  * 非常重要并且常考的一道题
- *
+ * time: O(2^n * n)
+ * space: O(n * 2^n)
  */
 public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {

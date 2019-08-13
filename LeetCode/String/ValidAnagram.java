@@ -1,5 +1,7 @@
 package LeetCode.String;
 
+import java.util.HashMap;
+
 /**
  * 242. Valid Anagram
  * 6/24/2019
@@ -22,5 +24,30 @@ public class ValidAnagram {
                 return false;
         }
         return true;
+    }
+
+    public boolean isAnagram2(String s, String t) {
+        if (s.length() != t.length())
+            return false;
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            if (map.containsKey(c)) {
+                map.put(c, map.get(c) + 1);
+            } else {
+                map.put(c, 1);
+            }
+        }
+
+        for (char c : t.toCharArray()) {
+            if (map.containsKey(c)) {
+                int count = map.get(c);
+                if (count == 1) {
+                    map.remove(c);
+                } else {
+                    map.put(c, count - 1);
+                }
+            }
+        }
+        return map.isEmpty();
     }
 }
