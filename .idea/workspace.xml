@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d47bd8-bb27-4274-bcd0-db376e3e894d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/DifferentWaystoAddParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/FactorCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/LetterCombinationsofaPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/NQueensII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/PermutationII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/RestoreIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/BackTracking/SubsetsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/DFS_BFS/MinimumHeightTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/DFS_BFS/NumberofIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Design/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Graph/CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Graph/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Stack/LongestValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Stack/NestedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/LongestSubstringwithAtMostKDistinctCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/LongestSubstringwithAtMostTwoDistinctCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/SubstringwithConcatenationofAllWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinarySearchTreeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreeMaximumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreePostorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreeRightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/BinaryTreeUpsideDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/ConvertSortedArraytoBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/ConvertSortedListtoBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/InorderSuccessorinBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/KthSmallestElementinaBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/LowestCommonAncestorofaBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/PathSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/SerializeandDeserializeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/SumRoottoLeafNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/UnionFind/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/UnionFind/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Trie/ImplementTriePrefixTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Trie/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Trie/WordSearchII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/out/production/LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Array/out/production/LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/src/leetcode/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/src/leetcode/InsertInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/src/leetcode/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/src/leetcode/SummaryRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/BackTracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/BackTracking/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/LinkedList/SwapNodesinPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/LinkedList/SwapNodesinPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Stack/MiniParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Stack/MiniParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/String/ScrambleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/String/ScrambleString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/String/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/String/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,36 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Stack/MiniParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Stack/NestedInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Tree/BinaryTreeUpsideDown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/Tree/BinaryTreeMaximumPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,11 +87,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/Tree/BalancedBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Trie/ImplementTriePrefixTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Trie/WordSearchII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Trie/TrieNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -195,9 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/String/ValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/LeetCode/String/ValidAnagram.java" />
-        <option value="$PROJECT_DIR$/Array/src/leetcode/InsertInterval.java" />
         <option value="$PROJECT_DIR$/LeetCode/Stack/NestedInteger.java" />
         <option value="$PROJECT_DIR$/LeetCode/String/ScrambleString.java" />
         <option value="$PROJECT_DIR$/LeetCode/Design/LRUCache.java" />
@@ -246,6 +195,9 @@
         <option value="$PROJECT_DIR$/LeetCode/Tree/BinaryTreePostorderTraversal.java" />
         <option value="$PROJECT_DIR$/LeetCode/Tree/BinaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/LeetCode/Tree/BalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/LeetCode/Trie/TrieNode.java" />
+        <option value="$PROJECT_DIR$/LeetCode/Trie/ImplementTriePrefixTree.java" />
+        <option value="$PROJECT_DIR$/LeetCode/Trie/WordSearchII.java" />
       </list>
     </option>
   </component>
@@ -255,7 +207,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="799" />
@@ -281,12 +233,6 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -631,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564271238712</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add tree, backtracking, bfs&amp;dfs, union find. (partial)">
+      <created>1565737967591</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1565737967591</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -644,7 +597,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="799" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="799" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.2067239" />
@@ -740,34 +693,14 @@
     <MESSAGE value="加了很多" />
     <MESSAGE value="add random, list, and binary search" />
     <MESSAGE value="add stack, string" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stack, string" />
+    <MESSAGE value="add tree, backtracking, bfs&amp;dfs, union find. (partial)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tree, backtracking, bfs&amp;dfs, union find. (partial)" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/String/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Stack/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Stack/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Stack/LongestValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1158,6 +1091,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Trie/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Trie/ImplementTriePrefixTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Trie/WordSearchII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
