@@ -7,6 +7,8 @@ the problems and complexity are at the top of the code.
 --------------------------------------------------------
 一些心情记录：
 
+9/2: 300 ✅... Back and forth...
+
 8/16: design tag continuing...才买lc的会员 发现runcode的速度并未什么提升。。。
 
 8/13: 艰难爬行到230. brain completely messed up.🥶🥶
