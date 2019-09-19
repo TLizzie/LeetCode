@@ -7,6 +7,8 @@ the problems and complexity are at the top of the code.
 --------------------------------------------------------
 一些心情记录：
 
+9/19: 少初始化了一个参数 两道题 犯同样错误 debug加起来能有1.5h 就是没看出来这个问题 眼睛不用可以捐给有需要的人🙄谢谢
+
 9/2: 300 ✅... Back and forth...
 
 8/16: design tag continuing...才买lc的会员 发现runcode的速度并未什么提升。。。
