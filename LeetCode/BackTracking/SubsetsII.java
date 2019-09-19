@@ -19,9 +19,9 @@ public class SubsetsII {
         for (int i = index; i < nums.length; i++) {
             if (i != index && nums[i] == nums[i - 1])
                 continue;
-                list.add(nums[i]);
-                helper(res,list, nums, i + 1);
-                list.remove(list.size() - 1);
+            list.add(nums[i]);
+            helper(res,list, nums, i + 1);
+            list.remove(list.size() - 1);
 
         }
     }

@@ -21,8 +21,8 @@ public class WordLadder {
         queue.offer(beginWord);
 
         int level = 1;
-        int curNum = 1;  // the candidate num on current level
-        int nextNum = 0;  // counter for next level
+        int curNum = 1;  // the candidate num on current level 同一层有几个词符合标准
+        int nextNum = 0;  // 通过一次变换可以得到几个词
         while (!queue.isEmpty()) {
             String word = queue.poll();
             curNum--;
@@ -46,6 +46,44 @@ public class WordLadder {
                 nextNum = 0;
                 level++;
             }
+        }
+        return 0;
+    }
+
+
+    public int ladderLength3(String beginWord, String endWord, List<String> wordList) {
+        if (beginWord == null || endWord == null || wordList == null)
+            return 0;
+        Set<String> set = new HashSet<>(wordList);
+        if (set.contains(beginWord)) {
+            set.remove(beginWord);
+        }
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(beginWord);
+
+        int level = 1;
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                char[] word = queue.poll().toCharArray();
+                for (int j = 0; j < word.length; j++) {
+                    char temp = word[j];
+                    for (char k = 'a'; k <= 'z'; k++) {
+                        word[j] = k;
+                        String cur = new String(word);
+                        if (set.contains(cur)) {
+                            if (cur.equals(endWord)) {
+                                return level + 1;
+                            }
+                            set.remove(cur);
+                            queue.offer(cur);
+                        }
+                        word[j] = temp;
+                    }
+                }
+            }
+            level++;
         }
         return 0;
     }

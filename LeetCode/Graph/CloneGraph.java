@@ -12,32 +12,31 @@ import java.util.*;
 public class CloneGraph {
 
     public Node cloneGraph(Node node) {
-        return bfsHelper(node);
-    }
 
-    public Node bfsHelper(Node node) {
-        if (node == null) {
-            return node;
-        }
+        if (node == null)
+            return null;
         HashMap<Node, Node> map = new HashMap<>();
+        map.put(node, null);
         Queue<Node> queue = new LinkedList<>();
-
         queue.offer(node);
-        map.put(node, new Node(node.val));
 
         while (!queue.isEmpty()) {
             Node cur = queue.poll();
-            map.get(cur).neighbors = new ArrayList<>();
+            map.put(cur, new Node(cur.val));
             for (Node neighbor : cur.neighbors) {
                 if (!map.containsKey(neighbor)) {
-                    map.put(neighbor, new Node(node.val));
+                    map.put(neighbor, null);
                     queue.offer(neighbor);
                 }
-                map.get(cur).neighbors.add(map.get(neighbor));
+            }
+        }
+
+        for (Node original : map.keySet()) {
+            Node copy = map.get(original);
+            for (Node nei : original.neighbors) {
+                copy.neighbors.add(map.get(nei));
             }
         }
         return map.get(node);
     }
-
-
 }

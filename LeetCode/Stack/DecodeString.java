@@ -36,4 +36,32 @@ public class DecodeString {
             }
         return res;
     }
+
+    public String decodeString2(String s) {
+        if (s == null || s.length() == 0)
+            return s;
+        Stack<Integer> cntStack = new Stack<>();
+        Stack<StringBuilder> strStack = new Stack<>();
+        StringBuilder cur = new StringBuilder();
+        int count = 0;
+        for (char ch : s.toCharArray()) {
+            if (Character.isDigit(ch)) {
+                count = count * 10 + ch - '0';
+            } else if (ch == '[') {
+                cntStack.push(count);
+                count = 0;
+                strStack.push(cur);
+                cur = new StringBuilder();
+            } else if (ch == ']') {
+                StringBuilder temp = cur;
+                cur = strStack.pop();
+                for (int k = cntStack.pop(); k > 0; k--) {
+                    cur.append(temp);
+                }
+            } else {
+                cur.append(ch);
+            }
+        }
+        return cur.toString();
+    }
 }

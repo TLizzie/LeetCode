@@ -11,6 +11,8 @@ import java.util.List;
  * time: O(2^ n)
  * spack: O(n)
  *
+ * 判定条件：左边一定要比右边少  没有未闭合的左边不可以加右边
+ *
  */
 public class GenerateParentheses {
     public List<String> generateParenthesis(int n) {

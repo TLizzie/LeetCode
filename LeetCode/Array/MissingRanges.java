@@ -27,7 +27,7 @@ public class MissingRanges {
         long aupper = (long)upper;
 
         for (int num : nums) {
-            if (num == lower) {
+            if (num == alower) {
                 alower++;
             } else if (alower < num) {
                 if (alower + 1 == num) {
@@ -35,12 +35,12 @@ public class MissingRanges {
                 } else {
                     res.add(alower + "->" + (num - 1));
                 }
+                alower = (long)num + 1;
             }
-            alower = (long)num + 1;
         }
         if (alower == upper) {
             res.add(String.valueOf(alower));
-        } else {
+        } else if (alower < upper) {
             res.add(alower + "->" + aupper);
         }
         return res;

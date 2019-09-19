@@ -19,4 +19,13 @@ public class ReverseLinkedList {
         }
         return pre;
     }
+
+    public ListNode reverseList2(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+        ListNode pre = reverseList2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return pre;
+    }
 }
