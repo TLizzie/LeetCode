@@ -32,6 +32,15 @@ public class MeetingRooms {
         }
         return true;
     }
+
+    class Interval {
+        int start;
+        int end;
+        public Interval(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
+    }
 }
 
 

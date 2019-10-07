@@ -29,7 +29,7 @@ public class FindTheCelebrity {
         }
 
         for (int i = 0; i < n; i++) {
-            if (i != possible && (knows(i, possible)) ||  !knows(possible, i));
+            if (i != possible && (knows(possible, i)) ||  !knows(i, possible));
             return -1;
         }
 
