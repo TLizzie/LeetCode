@@ -1,4 +1,4 @@
-package LeetCode.String;
+package LeetCode.String.Palindrome;
 
 /**
  * Leetcode 9 Palindrome Number

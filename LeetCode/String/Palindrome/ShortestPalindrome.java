@@ -1,4 +1,4 @@
-package LeetCode.String;
+package LeetCode.String.Palindrome;
 
 /**
  * 214. Shortest Palindrome
@@ -9,6 +9,8 @@ package LeetCode.String;
  *  i
  *  a   b   c   d
  *  end
+ *
+ *
  */
 public class ShortestPalindrome {
     public String shortestPalindrome(String s) {
@@ -24,6 +26,7 @@ public class ShortestPalindrome {
                 j = end;
             }
         }
-        return new StringBuilder((s.substring(end + 1))).reverse().toString() + s;
+        StringBuilder sb = new StringBuilder(s.substring(end + 1)).reverse();
+        return sb.toString() + s;
     }
 }

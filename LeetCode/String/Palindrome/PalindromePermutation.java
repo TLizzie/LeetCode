@@ -1,4 +1,4 @@
-package LeetCode.String;
+package LeetCode.String.Palindrome;
 
 import java.util.HashSet;
 
