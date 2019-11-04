@@ -7,6 +7,8 @@ the problems and complexity are at the top of the code.
 --------------------------------------------------------
 一些心情记录：
 
+11/4: 一点update...最近lc进度条连着灰了好几条...全靠OA面筋找题硬撑...摸鱼完midterm需要back on track...
+
 9/19: 少初始化了一个参数 两道题 犯同样错误 debug加起来能有1.5h 就是没看出来这个问题 眼睛不用可以捐给有需要的人🙄谢谢
 
 9/2: 300 ✅... Back and forth...
