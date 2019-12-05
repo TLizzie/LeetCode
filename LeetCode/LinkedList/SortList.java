@@ -1,8 +1,5 @@
 package LeetCode.LinkedList;
 
-import java.util.List;
-import java.util.*;
-
 /**
  * 148. Sort List
  * 找中点 断开

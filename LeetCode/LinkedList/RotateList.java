@@ -1,7 +1,5 @@
 package LeetCode.LinkedList;
 
-import javax.swing.*;
-
 /**
  * 61. Rotate List
  * 收尾相连
