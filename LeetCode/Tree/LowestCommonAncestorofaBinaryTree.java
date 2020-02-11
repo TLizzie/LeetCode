@@ -3,9 +3,14 @@ package LeetCode.Tree;
 /**
  * 236. Lowest Common Ancestor of a Binary Tree
  *
- * postorder
+ * postorder???
  *
- * time space: O(n)
+ * focus on the current node working on, look up its left & right subtree value, make sure if its the one we want.
+ * get the result from bottom to top
+ *
+ * time: O(n)
+ * space: O(n) (O(h))
+ *
  */
 public class LowestCommonAncestorofaBinaryTree {
 

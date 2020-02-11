@@ -2,7 +2,12 @@ package LeetCode.Tree;
 
 /**
  * Balanced Binary Tree
- * postorder
+ * postorder??
+ *
+ * iterate each point and check the difference between left and right subtree
+ *
+ * time: O(n)
+ * space: O(h)
  */
 public class BalancedBinaryTree {
 
@@ -18,6 +23,7 @@ public class BalancedBinaryTree {
         if (l == -1 || r == -1 || Math.abs(l - r) > 1) {
             return -1;
         }
+//        calculate the height
         return Math.max(l, r) + 1;
     }
 }

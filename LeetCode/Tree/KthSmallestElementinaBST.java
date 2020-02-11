@@ -1,5 +1,7 @@
 package LeetCode.Tree;
 
+import java.util.Stack;
+
 public class KthSmallestElementinaBST {
 
     int count;
@@ -21,5 +23,21 @@ public class KthSmallestElementinaBST {
             res = root.val;
         }
         helper(root.right);
+    }
+    
+    public int kthSmallest2(TreeNode root, int k) {
+         Stack<TreeNode> stack = new Stack<>();
+         while (root != null || !stack.isEmpty()) {
+             while (root != null) {
+                 stack.push(root);
+                 root = root.left;
+             }
+             root = stack.pop();
+             if (--count == 0) {
+                 break;
+             }
+             root = root.right;
+         }
+         return root.val;
     }
 }
